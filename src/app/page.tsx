@@ -1,8 +1,9 @@
-import * as testData from '../test-data/test-data.json';
+import testData from '../test-data/test-data.json';
 import { Transaction } from '@/types/types';
 import TransactionsList from '@/app/components/TransactionsList/TransactionsList';
 
 export default function Home() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const transactions = testData['test-data'] as any as Transaction[];
   console.log('Home().  transactions:', transactions);
 

@@ -5,7 +5,7 @@
       "transactionType": "Payment",
       "amount": 100,
       "currency": "USD",
-      "transactionName": "IKEA",
+      "transactionName": "Facebook",
       "transactionDescription": "Payment for the service",
       "date": "2020-09-14T00:00:00.000Z"
     },
@@ -23,7 +23,7 @@
       "transactionType": "Payment",
       "amount": 150,
       "currency": "USD",
-      "transactionName": "Walmart",
+      "transactionName": "Discord",
       "transactionDescription": "Payment for the service",
       "date": "2020-09-16T00:00:00.000Z"
     },
@@ -32,7 +32,7 @@
       "transactionType": "Credit",
       "amount": 250,
       "currency": "USD",
-      "transactionName": "Target",
+      "transactionName": "Yotube",
       "transactionDescription": "Credit for the product",
       "date": "2020-09-17T00:00:00.000Z"
     },
@@ -41,7 +41,7 @@
       "transactionType": "Payment",
       "amount": 300,
       "currency": "USD",
-      "transactionName": "Best Buy",
+      "transactionName": "Yotube",
       "transactionDescription": "Payment for the service",
       "date": "2020-09-18T00:00:00.000Z"
     },
@@ -59,7 +59,7 @@
       "transactionType": "Payment",
       "amount": 400,
       "currency": "USD",
-      "transactionName": "Home Depot",
+      "transactionName": "Yotube",
       "transactionDescription": "Payment for the service",
       "date": "2020-09-20T00:00:00.000Z"
     },
@@ -68,7 +68,7 @@
       "transactionType": "Credit",
       "amount": 450,
       "currency": "USD",
-      "transactionName": "Lowe's",
+      "transactionName": "Figma",
       "transactionDescription": "Credit for the product",
       "date": "2020-09-21T00:00:00.000Z"
     },

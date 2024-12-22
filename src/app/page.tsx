@@ -5,7 +5,6 @@ import TransactionsList from '@/app/components/TransactionsList/TransactionsList
 export default function Home() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const transactions = testData['test-data'] as any as Transaction[];
-  console.log('Home().  transactions:', transactions);
 
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">

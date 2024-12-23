@@ -2,7 +2,7 @@ import TransactionSmallCard, {
   TransactionCardProps
 } from '@/app/components/TransactionSmallCard/TransactionSmallCard';
 import { render } from '@testing-library/react';
-import { moneyFormatter } from '@/utils/moneyFormatter';
+import { moneyFormatterWithTransactionType } from '@/utils/moneyFormatter';
 import { getDateString } from '@/types/dates';
 import { authorizesUser, testPaymentTransaction } from '@/test-data/testHelpers';
 
@@ -35,7 +35,7 @@ describe('TransactionSmallCard component should', () => {
     expect(container.getByTestId('transaction-amount')).toBeInTheDocument();
     expect(
       container.getByText(
-        moneyFormatter(
+        moneyFormatterWithTransactionType(
           props.transaction.amount,
           props.transaction.currency,
           props.transaction.transactionType

@@ -3,7 +3,7 @@
 import { Transaction, User } from '@/types/types';
 import { getIconDefinitionByBrand } from '@/test-data/icons-set';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { moneyFormatter } from '@/utils/moneyFormatter';
+import { moneyFormatterWithTransactionType } from '@/utils/moneyFormatter';
 import './transaction-small-card.css';
 import { getDateString } from '@/types/dates';
 
@@ -21,7 +21,7 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
   };
 
   return (
-    <div className="flex-row gap-1 p-1 bg-gray-100 grid grid-cols-10">
+    <div className="flex-row gap-1 p-1 bg-white grid grid-cols-10">
       <div className="col-span-2 gap-1 p-1">
         <FontAwesomeIcon
           icon={getIconDefinitionByBrand(transaction.transactionName)}
@@ -36,7 +36,11 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
             {transaction.transactionType === 'Payment' ? 'Payment' : transaction.transactionName}
           </div>
           <div className="text-sm font-bold align-text-top" data-testid="transaction-amount">
-            {moneyFormatter(transaction.amount, transaction.currency, transaction.transactionType)}
+            {moneyFormatterWithTransactionType(
+              transaction.amount,
+              transaction.currency,
+              transaction.transactionType
+            )}
           </div>
         </div>
         <div
@@ -56,11 +60,11 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
       </div>
       <div className="col-span-1">
         <button
-          className="w-full h-full text-gray-400 bg-gray-100 hover:bg-gray-200"
+          className="w-full h-full text-gray-400 bg-white hover:bg-gray-200"
           onClick={() => {}}
         >
           <span
-            className="w-full h-full inline-block align-text-bottom ..."
+            className="w-full h-full inline-block align-text-bottom"
             data-testid="transaction-detail-button"
           >
             {'>'}

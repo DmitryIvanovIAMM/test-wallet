@@ -1,6 +1,8 @@
 import testData from '../test-data/test-data.json';
 import { Transaction, User } from '@/types/types';
 import TransactionsList from '@/app/components/TransactionsList/TransactionsList';
+import CardBalance from '@/app/components/CardBalance/CardBalance';
+import { randomIntFromInterval } from '@/utils/moneyFormatter';
 
 export default function Home() {
   // TODO: put authorization into hook and then in Context if any
@@ -12,7 +14,8 @@ export default function Home() {
   const transactions = testData['test-data'] as any as Transaction[];
 
   return (
-    <div className="grid items-center justify-items-center min-h-screen p-4 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid items-center justify-items-center min-h-screen p-4 pb-20 gap-2 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gray-100">
+      <CardBalance cardLimit={1500} balance={randomIntFromInterval(1, 500)} currency="USD" />
       <main className="flex flex-col gap-0 row-start-2 sm:items-start">
         <TransactionsList user={user} transactions={transactions.slice(0, 10)} />
       </main>

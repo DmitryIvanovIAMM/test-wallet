@@ -1,6 +1,6 @@
 import TransactionSmallCard, {
   TransactionCardProps
-} from '@/app/components/TransactionSmallCard/TransactionSmallCard';
+} from '@/components/TransactionSmallCard/TransactionSmallCard';
 import { render } from '@testing-library/react';
 import { moneyFormatterWithTransactionType } from '@/utils/moneyFormatter';
 import { getDateString } from '@/types/dates';

@@ -68,7 +68,7 @@ exports[`TransactionsList component should render correctly 1`] = `
               class="text-sm text-gray-600 elipsis-row align-middle"
               data-testid="transaction-date"
             >
-              Monday
+              9/14/2020
             </div>
           </div>
           <div
@@ -77,12 +77,13 @@ exports[`TransactionsList component should render correctly 1`] = `
             <button
               class="w-full h-full text-gray-400 bg-white hover:bg-gray-200"
             >
-              <span
+              <a
                 class="w-full h-full inline-block align-text-bottom"
                 data-testid="transaction-detail-button"
+                href="/transaction/5f5f3b3b9b1f3b0017f3"
               >
                 &gt;
-              </span>
+              </a>
             </button>
           </div>
         </div>
@@ -139,7 +140,7 @@ exports[`TransactionsList component should render correctly 1`] = `
               class="text-sm text-gray-600 elipsis-row align-middle"
               data-testid="transaction-date"
             >
-              Monday
+              9/15/2020
             </div>
           </div>
           <div
@@ -148,12 +149,13 @@ exports[`TransactionsList component should render correctly 1`] = `
             <button
               class="w-full h-full text-gray-400 bg-white hover:bg-gray-200"
             >
-              <span
+              <a
                 class="w-full h-full inline-block align-text-bottom"
                 data-testid="transaction-detail-button"
+                href="/transaction/5f5f3b3b9b1f3b0017f3"
               >
                 &gt;
-              </span>
+              </a>
             </button>
           </div>
         </div>
@@ -224,7 +226,7 @@ exports[`TransactionsList component should render correctly 1`] = `
             class="text-sm text-gray-600 elipsis-row align-middle"
             data-testid="transaction-date"
           >
-            Monday
+            9/14/2020
           </div>
         </div>
         <div
@@ -233,12 +235,13 @@ exports[`TransactionsList component should render correctly 1`] = `
           <button
             class="w-full h-full text-gray-400 bg-white hover:bg-gray-200"
           >
-            <span
+            <a
               class="w-full h-full inline-block align-text-bottom"
               data-testid="transaction-detail-button"
+              href="/transaction/5f5f3b3b9b1f3b0017f3"
             >
               &gt;
-            </span>
+            </a>
           </button>
         </div>
       </div>
@@ -295,7 +298,7 @@ exports[`TransactionsList component should render correctly 1`] = `
             class="text-sm text-gray-600 elipsis-row align-middle"
             data-testid="transaction-date"
           >
-            Monday
+            9/15/2020
           </div>
         </div>
         <div
@@ -304,12 +307,13 @@ exports[`TransactionsList component should render correctly 1`] = `
           <button
             class="w-full h-full text-gray-400 bg-white hover:bg-gray-200"
           >
-            <span
+            <a
               class="w-full h-full inline-block align-text-bottom"
               data-testid="transaction-detail-button"
+              href="/transaction/5f5f3b3b9b1f3b0017f3"
             >
               &gt;
-            </span>
+            </a>
           </button>
         </div>
       </div>

@@ -13,7 +13,7 @@ export interface CardBalanceProps {
 export default function CardBalance({ cardLimit, balance, currency }: CardBalanceProps) {
   return (
     <div
-      className="grid grid-cols-2 gap-2 rounded-md w-full h-full p-0"
+      className="grid grid-cols-2 gap-2 rounded-md w-full h-full p-0 pb-5"
       data-testid="card-balance-header"
     >
       <div className="grid grid-rows-2 gap-2 rounded-md">

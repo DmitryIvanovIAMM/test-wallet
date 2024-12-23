@@ -14,7 +14,7 @@ export const testPaymentTransaction: Transaction = {
   transactionDescription: 'Test transaction 1',
   isPending: false,
   authorizedUser: authorizesUser,
-  date: new Date()
+  date: new Date('2020-09-14T00:00:00.000Z')
 };
 export const testCreditTransaction: Transaction = {
   _id: '5f5f3b3b9b1f3b0017f3',
@@ -25,5 +25,5 @@ export const testCreditTransaction: Transaction = {
   transactionDescription: 'Test transaction 2',
   isPending: false,
   authorizedUser: authorizesUser,
-  date: new Date()
+  date: new Date('2020-09-15T00:00:00.000Z')
 };

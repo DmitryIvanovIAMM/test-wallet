@@ -9,7 +9,6 @@ export default function Home() {
     name: 'John Doe1',
     email: 'test.email1@email.com'
   } as User;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const transactions = testData['test-data'] as any as Transaction[];
 
   return (

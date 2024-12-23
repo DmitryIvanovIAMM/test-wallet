@@ -52,7 +52,7 @@ exports[`TransactionSmallCard component should render correctly 1`] = `
             class="text-sm text-gray-600 elipsis-row align-middle"
             data-testid="transaction-description"
           >
-            Test transaction
+            Test transaction 1
           </div>
           <div
             class="text-sm text-gray-600 elipsis-row align-middle"
@@ -126,7 +126,7 @@ exports[`TransactionSmallCard component should render correctly 1`] = `
           class="text-sm text-gray-600 elipsis-row align-middle"
           data-testid="transaction-description"
         >
-          Test transaction
+          Test transaction 1
         </div>
         <div
           class="text-sm text-gray-600 elipsis-row align-middle"

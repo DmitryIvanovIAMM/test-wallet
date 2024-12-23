@@ -14,7 +14,6 @@ export interface TransactionCardProps {
 
 export default function TransactionSmallCard({ user, transaction }: TransactionCardProps) {
   const getDateWithUserString = (date: Date | string, user: User) => {
-    console.log('getDateWithUserString().  user: ', user, ',  transaction: ', transaction);
     const dateString = getDateString(date);
     return transaction.authorizedUser._id === user._id
       ? dateString
@@ -58,7 +57,7 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
       <div className="col-span-1">
         <button
           className="w-full h-full text-gray-400 bg-gray-100 hover:bg-gray-200"
-          onClick={() => console.log('clicked')}
+          onClick={() => {}}
         >
           <span
             className="w-full h-full inline-block align-text-bottom ..."

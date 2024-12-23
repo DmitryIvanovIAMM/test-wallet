@@ -37,7 +37,7 @@ exports[`TransactionDetail component should render correctly 1`] = `
         <div
           class="text-sm text-gray-600 align-middle text-center"
         >
-          12/23/2024, 17:07
+          9/14/2020, 03:00
         </div>
         <div
           class="grid grid-cols-1 gap-1 rounded-md w-full h-full p-4  bg-white mt-5"
@@ -102,7 +102,7 @@ exports[`TransactionDetail component should render correctly 1`] = `
       <div
         class="text-sm text-gray-600 align-middle text-center"
       >
-        12/23/2024, 17:07
+        9/14/2020, 03:00
       </div>
       <div
         class="grid grid-cols-1 gap-1 rounded-md w-full h-full p-4  bg-white mt-5"

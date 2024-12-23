@@ -58,7 +58,7 @@ exports[`TransactionSmallCard component should render correctly 1`] = `
             class="text-sm text-gray-600 elipsis-row align-middle"
             data-testid="transaction-date"
           >
-            Monday
+            9/14/2020
           </div>
         </div>
         <div
@@ -133,7 +133,7 @@ exports[`TransactionSmallCard component should render correctly 1`] = `
           class="text-sm text-gray-600 elipsis-row align-middle"
           data-testid="transaction-date"
         >
-          Monday
+          9/14/2020
         </div>
       </div>
       <div

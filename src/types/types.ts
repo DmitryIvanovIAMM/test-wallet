@@ -1,6 +1,6 @@
-export interface TransactionType {
-  Payment: 'Payment';
-  Credit: 'Credit';
+export enum TransactionType {
+  Payment = 'Payment',
+  Credit = 'Credit'
 }
 
 export interface Transaction {
@@ -10,5 +10,13 @@ export interface Transaction {
   currency: string;
   transactionName: string;
   transactionDescription: string;
+  isPending: boolean;
+  authorizedUser: User;
   date: Date | string;
+}
+
+export interface User {
+  _id: string;
+  name: string;
+  email: string;
 }

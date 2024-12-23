@@ -1,3 +1,5 @@
+'use client';
+
 import { Transaction, User } from '@/types/types';
 import { getIconDefinitionByBrand } from '@/test-data/icons-set';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,15 +22,16 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
 
   return (
     <div className="flex-row gap-1 p-1 bg-gray-100 grid grid-cols-10">
-      <div className="col-span-2 c p-2">
+      <div className="col-span-2 gap-1 p-1">
         <FontAwesomeIcon
           icon={getIconDefinitionByBrand(transaction.transactionName)}
           color="black"
+          className="w-full h-full"
         />
       </div>
       <div className="col-span-7 grid-rows-3">
         <div className="flex justify-between text-gray-600">
-          <div className="text-sm font-bold align-text-top">
+          <div className="text-sm font-bold align-middle">
             {transaction.transactionType === 'Payment' ? 'Payment' : transaction.transactionName}
           </div>
           <div className="text-sm font-bold align-text-top">
@@ -44,7 +47,14 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
           {getDateWithUserString(transaction.date, user)}
         </div>
       </div>
-      <div className="col-span-1"></div>
+      <div className="col-span-1">
+        <button
+          className="w-full h-full text-gray-400 bg-gray-100 hover:bg-gray-200"
+          onClick={() => console.log('clicked')}
+        >
+          <span className="w-full h-full inline-block align-text-bottom ...">{'>'}</span>
+        </button>
+      </div>
     </div>
   );
 }

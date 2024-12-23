@@ -1,32 +1,15 @@
 import TransactionSmallCard, {
   TransactionCardProps
 } from '@/app/components/TransactionSmallCard/TransactionSmallCard';
-import { Transaction, TransactionType, User } from '@/types/types';
 import { render } from '@testing-library/react';
 import { moneyFormatter } from '@/utils/moneyFormatter';
 import { getDateString } from '@/types/dates';
-
-const authorizesUser: User = {
-  _id: '5f5f3b3b9b1f3b0017f3',
-  name: 'John Doe',
-  email: 'test.email1@email.com'
-};
-const testTransaction: Transaction = {
-  _id: '5f5f3b3b9b1f3b0017f3',
-  transactionType: TransactionType.Payment,
-  amount: 100,
-  currency: 'USD',
-  transactionName: 'Payment',
-  transactionDescription: 'Test transaction',
-  isPending: false,
-  authorizedUser: authorizesUser,
-  date: new Date()
-};
+import { authorizesUser, testPaymentTransaction } from '@/test-data/testHelpers';
 
 const setup = (propsOverride: Partial<TransactionCardProps> = {}) => {
   const props: TransactionCardProps = {
     user: authorizesUser,
-    transaction: testTransaction,
+    transaction: testPaymentTransaction,
     ...propsOverride
   };
 
@@ -68,7 +51,7 @@ describe('TransactionSmallCard component should', () => {
   it('should show "Pending" prefix', async () => {
     const cardWithPendingTransaction: TransactionCardProps = {
       transaction: {
-        ...testTransaction,
+        ...testPaymentTransaction,
         isPending: true
       },
       user: authorizesUser
@@ -83,7 +66,7 @@ describe('TransactionSmallCard component should', () => {
   it('should show user name prefix if transaction performed by not current user', async () => {
     const cardWithAlienUser: TransactionCardProps = {
       transaction: {
-        ...testTransaction,
+        ...testPaymentTransaction,
         authorizedUser: {
           ...authorizesUser,
           name: 'Diana',

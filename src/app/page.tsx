@@ -12,8 +12,8 @@ export default function Home() {
   const transactions = testData['test-data'] as any as Transaction[];
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="grid items-center justify-items-center min-h-screen p-4 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col gap-0 row-start-2 sm:items-start">
         <TransactionsList user={user} transactions={transactions.slice(0, 10)} />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">

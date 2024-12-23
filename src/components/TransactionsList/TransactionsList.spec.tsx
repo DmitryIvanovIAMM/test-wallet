@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import TransactionsList, {
   TransactionsListProps
-} from '@/app/components/TransactionsList/TransactionsList';
+} from '@/components/TransactionsList/TransactionsList';
 import {
   authorizesUser,
   testCreditTransaction,

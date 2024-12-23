@@ -16,3 +16,13 @@ export const getDateString = (date: Date | string) => {
     ? daysOfWeek[incomingDate.getDay()]
     : incomingDate.toLocaleDateString();
 };
+
+export const getDateTimeString = (date: Date | string) => {
+  const incomingDate = new Date(date);
+
+  return `${incomingDate.toLocaleDateString()}, ${incomingDate.toLocaleTimeString([], {
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  })}`;
+};

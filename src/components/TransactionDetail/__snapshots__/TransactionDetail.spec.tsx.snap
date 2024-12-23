@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionDetail component should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="grid grid-cols-1 gap-4 w-full h-full p-2 xs:m-20 bg-gray-200 pb-20 align-top"
+        data-testid="transaction-detail"
+      >
+        <div
+          class="col-span-1"
+        >
+          <button
+            class="w-full h-full text-blue-500 bg-gray-200 hover:bg-gray-200"
+          >
+            <a
+              class="w-full h-full inline-block align-text-bottom text-left"
+              data-testid="transaction-detail-button"
+              href="/"
+            >
+              &lt;
+            </a>
+          </button>
+        </div>
+        <div
+          class="font-bold text-4xl w-full text-center mt-5"
+        >
+          $100.00
+        </div>
+        <div
+          class="text-sm text-gray-600 align-middle text-center"
+        >
+          Payment
+        </div>
+        <div
+          class="text-sm text-gray-600 align-middle text-center"
+        >
+          12/23/2024, 17:07
+        </div>
+        <div
+          class="grid grid-cols-1 gap-1 rounded-md w-full h-full p-4  bg-white mt-5"
+        >
+          <div
+            class="font-bold text-sm justify-center"
+          >
+            Status: Approved
+          </div>
+          <div
+            class="text-sm text-gray-600"
+          >
+            Test transaction 1
+          </div>
+          <hr />
+          <div
+            class="grid grid-cols-2 justify-between font-bold text-sm"
+          >
+            <div>
+              Total
+            </div>
+            <div
+              class="text-right"
+            >
+              $100.00
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="grid grid-cols-1 gap-4 w-full h-full p-2 xs:m-20 bg-gray-200 pb-20 align-top"
+      data-testid="transaction-detail"
+    >
+      <div
+        class="col-span-1"
+      >
+        <button
+          class="w-full h-full text-blue-500 bg-gray-200 hover:bg-gray-200"
+        >
+          <a
+            class="w-full h-full inline-block align-text-bottom text-left"
+            data-testid="transaction-detail-button"
+            href="/"
+          >
+            &lt;
+          </a>
+        </button>
+      </div>
+      <div
+        class="font-bold text-4xl w-full text-center mt-5"
+      >
+        $100.00
+      </div>
+      <div
+        class="text-sm text-gray-600 align-middle text-center"
+      >
+        Payment
+      </div>
+      <div
+        class="text-sm text-gray-600 align-middle text-center"
+      >
+        12/23/2024, 17:07
+      </div>
+      <div
+        class="grid grid-cols-1 gap-1 rounded-md w-full h-full p-4  bg-white mt-5"
+      >
+        <div
+          class="font-bold text-sm justify-center"
+        >
+          Status: Approved
+        </div>
+        <div
+          class="text-sm text-gray-600"
+        >
+          Test transaction 1
+        </div>
+        <hr />
+        <div
+          class="grid grid-cols-2 justify-between font-bold text-sm"
+        >
+          <div>
+            Total
+          </div>
+          <div
+            class="text-right"
+          >
+            $100.00
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

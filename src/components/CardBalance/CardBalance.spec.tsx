@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import CardBalance, { CardBalanceProps } from '@/app/components/CardBalance/CardBalance';
+import CardBalance, { CardBalanceProps } from '@/components/CardBalance/CardBalance';
 import { moneyFormatter } from '@/utils/moneyFormatter';
 
 const setup = (propsOverride: Partial<CardBalanceProps> = {}) => {

@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { Transaction, User } from '@/types/types';
 import { getIconDefinitionByBrand } from '@/test-data/icons-set';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -63,12 +64,13 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
           className="w-full h-full text-gray-400 bg-white hover:bg-gray-200"
           onClick={() => {}}
         >
-          <span
+          <Link
             className="w-full h-full inline-block align-text-bottom"
             data-testid="transaction-detail-button"
+            href={`/transaction/${transaction._id}`}
           >
             {'>'}
-          </span>
+          </Link>
         </button>
       </div>
     </div>

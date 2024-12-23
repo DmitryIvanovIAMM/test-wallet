@@ -14,6 +14,7 @@ export interface TransactionCardProps {
 
 export default function TransactionSmallCard({ user, transaction }: TransactionCardProps) {
   const getDateWithUserString = (date: Date | string, user: User) => {
+    console.log('getDateWithUserString().  user: ', user, ',  transaction: ', transaction);
     const dateString = getDateString(date);
     return transaction.authorizedUser._id === user._id
       ? dateString
@@ -27,23 +28,30 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
           icon={getIconDefinitionByBrand(transaction.transactionName)}
           color="black"
           className="w-full h-full"
+          data-testid="transaction-icon"
         />
       </div>
       <div className="col-span-7 grid-rows-3">
         <div className="flex justify-between text-gray-600">
-          <div className="text-sm font-bold align-middle">
+          <div className="text-sm font-bold align-middle" data-testid="transaction-name">
             {transaction.transactionType === 'Payment' ? 'Payment' : transaction.transactionName}
           </div>
-          <div className="text-sm font-bold align-text-top">
+          <div className="text-sm font-bold align-text-top" data-testid="transaction-amount">
             {moneyFormatter(transaction.amount, transaction.currency, transaction.transactionType)}
           </div>
         </div>
-        <div className="text-sm text-gray-600 elipsis-row align-middle">
+        <div
+          className="text-sm text-gray-600 elipsis-row align-middle"
+          data-testid="transaction-description"
+        >
           {transaction.isPending
             ? `Pending - ${transaction.transactionDescription}`
             : transaction.transactionDescription}
         </div>
-        <div className="text-sm text-gray-600 elipsis-row align-middle">
+        <div
+          className="text-sm text-gray-600 elipsis-row align-middle"
+          data-testid="transaction-date"
+        >
           {getDateWithUserString(transaction.date, user)}
         </div>
       </div>
@@ -52,7 +60,12 @@ export default function TransactionSmallCard({ user, transaction }: TransactionC
           className="w-full h-full text-gray-400 bg-gray-100 hover:bg-gray-200"
           onClick={() => console.log('clicked')}
         >
-          <span className="w-full h-full inline-block align-text-bottom ...">{'>'}</span>
+          <span
+            className="w-full h-full inline-block align-text-bottom ..."
+            data-testid="transaction-detail-button"
+          >
+            {'>'}
+          </span>
         </button>
       </div>
     </div>

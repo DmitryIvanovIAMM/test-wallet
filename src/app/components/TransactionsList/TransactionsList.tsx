@@ -1,5 +1,5 @@
 import { Transaction, User } from '@/types/types';
-import TransactionSmallCard from '@/app/components/Transaction/TransactionSmallCard';
+import TransactionSmallCard from '@/app/components/TransactionSmallCard/TransactionSmallCard';
 
 export interface TransactionsListProps {
   user: User;

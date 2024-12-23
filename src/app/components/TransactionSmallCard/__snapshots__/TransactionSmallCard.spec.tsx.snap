@@ -6,7 +6,7 @@ exports[`TransactionSmallCard component should render correctly 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="flex-row gap-1 p-1 bg-gray-100 grid grid-cols-10"
+        class="flex-row gap-1 p-1 bg-white grid grid-cols-10"
       >
         <div
           class="col-span-2 gap-1 p-1"
@@ -65,10 +65,10 @@ exports[`TransactionSmallCard component should render correctly 1`] = `
           class="col-span-1"
         >
           <button
-            class="w-full h-full text-gray-400 bg-gray-100 hover:bg-gray-200"
+            class="w-full h-full text-gray-400 bg-white hover:bg-gray-200"
           >
             <span
-              class="w-full h-full inline-block align-text-bottom ..."
+              class="w-full h-full inline-block align-text-bottom"
               data-testid="transaction-detail-button"
             >
               &gt;
@@ -80,7 +80,7 @@ exports[`TransactionSmallCard component should render correctly 1`] = `
   </body>,
   "container": <div>
     <div
-      class="flex-row gap-1 p-1 bg-gray-100 grid grid-cols-10"
+      class="flex-row gap-1 p-1 bg-white grid grid-cols-10"
     >
       <div
         class="col-span-2 gap-1 p-1"
@@ -139,10 +139,10 @@ exports[`TransactionSmallCard component should render correctly 1`] = `
         class="col-span-1"
       >
         <button
-          class="w-full h-full text-gray-400 bg-gray-100 hover:bg-gray-200"
+          class="w-full h-full text-gray-400 bg-white hover:bg-gray-200"
         >
           <span
-            class="w-full h-full inline-block align-text-bottom ..."
+            class="w-full h-full inline-block align-text-bottom"
             data-testid="transaction-detail-button"
           >
             &gt;

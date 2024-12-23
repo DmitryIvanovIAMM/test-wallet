@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardBalanceProps component should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="grid grid-cols-2 gap-2 rounded-md w-full h-full p-0"
+        data-testid="card-balance-header"
+      >
+        <div
+          class="grid grid-rows-2 gap-2 rounded-md"
+        >
+          <div
+            class="flex-row rounded-md bg-white w-full h-full p-2"
+          >
+            <div
+              class="font-bold text-sm"
+            >
+              Card balance
+            </div>
+            <div
+              class="font-bold text-2xl"
+            >
+              $200.00
+            </div>
+            <div
+              class="text-sm text-gray-600"
+            >
+              $1,300.00
+               Available
+            </div>
+          </div>
+          <div
+            class="flex flex-col rounded-md bg-white p-2 align-middle justify-center"
+          >
+            <div
+              class="font-bold text-sm justify-center"
+            >
+              Daily points
+            </div>
+            <div
+              class="text-sm text-gray-600 justify-center"
+            >
+              456k
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex-row gap-1 rounded-md bg-white p-2"
+        >
+          <div
+            class="font-bold text-sm"
+          >
+            No Payment Due
+          </div>
+          <div
+            class="text-sm text-gray-600 align-middle"
+          >
+            You pay your september balance
+          </div>
+          <div
+            class="grid grid-cols-1 w-full h-full align-middle items-center"
+          >
+            <div
+              class="flex justify-end"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-circle-check fa-3x "
+                color="gray"
+                data-icon="circle-check"
+                data-prefix="far"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="grid grid-cols-2 gap-2 rounded-md w-full h-full p-0"
+      data-testid="card-balance-header"
+    >
+      <div
+        class="grid grid-rows-2 gap-2 rounded-md"
+      >
+        <div
+          class="flex-row rounded-md bg-white w-full h-full p-2"
+        >
+          <div
+            class="font-bold text-sm"
+          >
+            Card balance
+          </div>
+          <div
+            class="font-bold text-2xl"
+          >
+            $200.00
+          </div>
+          <div
+            class="text-sm text-gray-600"
+          >
+            $1,300.00
+             Available
+          </div>
+        </div>
+        <div
+          class="flex flex-col rounded-md bg-white p-2 align-middle justify-center"
+        >
+          <div
+            class="font-bold text-sm justify-center"
+          >
+            Daily points
+          </div>
+          <div
+            class="text-sm text-gray-600 justify-center"
+          >
+            456k
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex-row gap-1 rounded-md bg-white p-2"
+      >
+        <div
+          class="font-bold text-sm"
+        >
+          No Payment Due
+        </div>
+        <div
+          class="text-sm text-gray-600 align-middle"
+        >
+          You pay your september balance
+        </div>
+        <div
+          class="grid grid-cols-1 w-full h-full align-middle items-center"
+        >
+          <div
+            class="flex justify-end"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-circle-check fa-3x "
+              color="gray"
+              data-icon="circle-check"
+              data-prefix="far"
+              focusable="false"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

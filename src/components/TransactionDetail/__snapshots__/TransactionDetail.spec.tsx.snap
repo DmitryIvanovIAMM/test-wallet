@@ -25,7 +25,7 @@ exports[`TransactionDetail component should render correctly 1`] = `
           </button>
         </div>
         <div
-          class="font-bold text-4xl w-full text-center mt-5"
+          class="font-bold text-4xl w-full text-center mt-5 text-gray-800"
         >
           $100.00
         </div>
@@ -43,7 +43,7 @@ exports[`TransactionDetail component should render correctly 1`] = `
           class="grid grid-cols-1 gap-1 rounded-md w-full h-full p-4  bg-white mt-5"
         >
           <div
-            class="font-bold text-sm justify-center"
+            class="font-bold text-sm justify-center text-gray-800"
           >
             Status: Approved
           </div>
@@ -54,7 +54,7 @@ exports[`TransactionDetail component should render correctly 1`] = `
           </div>
           <hr />
           <div
-            class="grid grid-cols-2 justify-between font-bold text-sm"
+            class="grid grid-cols-2 justify-between font-bold text-sm text-gray-800"
           >
             <div>
               Total
@@ -90,7 +90,7 @@ exports[`TransactionDetail component should render correctly 1`] = `
         </button>
       </div>
       <div
-        class="font-bold text-4xl w-full text-center mt-5"
+        class="font-bold text-4xl w-full text-center mt-5 text-gray-800"
       >
         $100.00
       </div>
@@ -108,7 +108,7 @@ exports[`TransactionDetail component should render correctly 1`] = `
         class="grid grid-cols-1 gap-1 rounded-md w-full h-full p-4  bg-white mt-5"
       >
         <div
-          class="font-bold text-sm justify-center"
+          class="font-bold text-sm justify-center text-gray-800"
         >
           Status: Approved
         </div>
@@ -119,7 +119,7 @@ exports[`TransactionDetail component should render correctly 1`] = `
         </div>
         <hr />
         <div
-          class="grid grid-cols-2 justify-between font-bold text-sm"
+          class="grid grid-cols-2 justify-between font-bold text-sm text-gray-800"
         >
           <div>
             Total

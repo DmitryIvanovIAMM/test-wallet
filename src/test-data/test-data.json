@@ -275,7 +275,7 @@
       "transactionType": "Payment",
       "amount": 1000,
       "currency": "USD",
-      "transactionName": "Airbnb",
+      "transactionName": "Amazon",
       "transactionDescription": "Payment for the service",
       "isPending": false,
       "authorizedUser": {
@@ -290,7 +290,7 @@
       "transactionType": "Credit",
       "amount": 1050,
       "currency": "USD",
-      "transactionName": "Dropbox",
+      "transactionName": "Discord",
       "transactionDescription": "Credit for the product",
       "isPending": false,
       "authorizedUser": {
@@ -305,7 +305,7 @@
       "transactionType": "Payment",
       "amount": 1100,
       "currency": "USD",
-      "transactionName": "Slack",
+      "transactionName": "Github",
       "transactionDescription": "Payment for the service",
       "isPending": false,
       "authorizedUser": {
@@ -320,7 +320,7 @@
       "transactionType": "Credit",
       "amount": 1150,
       "currency": "USD",
-      "transactionName": "Zoom",
+      "transactionName": "Mendeley",
       "transactionDescription": "Credit for the product",
       "isPending": false,
       "authorizedUser": {
@@ -335,7 +335,7 @@
       "transactionType": "Payment",
       "amount": 1200,
       "currency": "USD",
-      "transactionName": "Adobe",
+      "transactionName": "Reddit",
       "transactionDescription": "Payment for the service",
       "isPending": false,
       "authorizedUser": {
@@ -350,7 +350,7 @@
       "transactionType": "Credit",
       "amount": 1250,
       "currency": "USD",
-      "transactionName": "Salesforce",
+      "transactionName": "Microsoft",
       "transactionDescription": "Credit for the product",
       "isPending": false,
       "authorizedUser": {
@@ -365,7 +365,7 @@
       "transactionType": "Payment",
       "amount": 1300,
       "currency": "USD",
-      "transactionName": "Oracle",
+      "transactionName": "Figma",
       "transactionDescription": "Payment for the service",
       "isPending": true,
       "authorizedUser": {
@@ -380,7 +380,7 @@
       "transactionType": "Credit",
       "amount": 1350,
       "currency": "USD",
-      "transactionName": "SAP",
+      "transactionName": "Discord",
       "transactionDescription": "Credit for the product",
       "isPending": true,
       "authorizedUser": {
@@ -395,7 +395,7 @@
       "transactionType": "Payment",
       "amount": 1400,
       "currency": "USD",
-      "transactionName": "IBM",
+      "transactionName": "Amazon",
       "transactionDescription": "Payment for the service",
       "isPending": true,
       "authorizedUser": {
@@ -410,7 +410,7 @@
       "transactionType": "Credit",
       "amount": 1450,
       "currency": "USD",
-      "transactionName": "Intel",
+      "transactionName": "Facebook",
       "transactionDescription": "Credit for the product",
       "isPending": true,
       "authorizedUser": {

@@ -14,7 +14,7 @@ export default function Home() {
   const transactions = testData['test-data'] as any as Transaction[];
 
   return (
-    <div className="grid items-center justify-items-center min-h-screen p-4 pb-20 gap-2 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gray-100">
+    <div className="grid items-center justify-items-center min-h-screen p-4 pb-20 gap-2 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gray-100 h-full">
       <CardBalance cardLimit={1500} balance={randomIntFromInterval(1, 500)} currency="USD" />
       <main className="flex flex-col gap-0 row-start-2 sm:items-start">
         <TransactionsList

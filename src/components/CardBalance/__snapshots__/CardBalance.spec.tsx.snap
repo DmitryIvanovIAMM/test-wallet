@@ -6,7 +6,7 @@ exports[`CardBalanceProps component should render correctly 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="grid grid-cols-2 gap-2 rounded-md w-full h-full p-0 pb-5 bg-white"
+        class="grid grid-cols-2 gap-2 rounded-md w-full h-full pb-5 "
         data-testid="card-balance-header"
       >
         <div
@@ -90,7 +90,7 @@ exports[`CardBalanceProps component should render correctly 1`] = `
   </body>,
   "container": <div>
     <div
-      class="grid grid-cols-2 gap-2 rounded-md w-full h-full p-0 pb-5 bg-white"
+      class="grid grid-cols-2 gap-2 rounded-md w-full h-full pb-5 "
       data-testid="card-balance-header"
     >
       <div

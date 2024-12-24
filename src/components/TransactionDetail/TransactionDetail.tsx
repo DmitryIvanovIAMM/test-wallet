@@ -28,7 +28,7 @@ export default function TransactionDetail({ transaction }: TransactionDetailProp
           </Link>
         </button>
       </div>
-      <div className="font-bold text-4xl w-full text-center mt-5">
+      <div className="font-bold text-4xl w-full text-center mt-5 text-gray-800">
         {moneyFormatter(transaction.amount, transaction.currency)}
       </div>
       <div className="text-sm text-gray-600 align-middle text-center">
@@ -38,12 +38,12 @@ export default function TransactionDetail({ transaction }: TransactionDetailProp
         {getDateTimeString(transaction.date)}
       </div>
       <div className="grid grid-cols-1 gap-1 rounded-md w-full h-full p-4  bg-white mt-5">
-        <div className="font-bold text-sm justify-center">
+        <div className="font-bold text-sm justify-center text-gray-800">
           {`Status: ${transaction.isPending ? 'Pending' : 'Approved'}`}
         </div>
         <div className="text-sm text-gray-600">{transaction.transactionDescription}</div>
         <hr />
-        <div className="grid grid-cols-2 justify-between font-bold text-sm">
+        <div className="grid grid-cols-2 justify-between font-bold text-sm text-gray-800">
           <div>Total</div>
           <div className="text-right">
             {moneyFormatter(transaction.amount, transaction.currency)}
